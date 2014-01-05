@@ -15,7 +15,7 @@ Admin plus requiere:
 
 ## Instalacion
 
-1. [Descarga](https://github.com/pyner/admin_plus/blob/master/web2py.plugin.admin_plus.w2p?raw=true) e instala el plugin
+1. Descarga e instala el plugin
 2. luego ve a `127.0.0.1:8000/<app>/plugin_admin_plus/install`
 3. Opten los permisos con `plugin_admin_plus_superuser` en `127.0.0.1:8000/<app>/appadmin/insert/db/auth_membership`
 4. ! Listo ! ahora puedes iniciar sesion `127.0.0.1:8000/<app>/plugin_admin_plus/index`
