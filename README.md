@@ -43,7 +43,7 @@ Puedes ayudar enviando tus donaciones con bitcoin ala siguiente direccion :
 
 ### edit
 
-![Screenshot](https://lh3.googleusercontent.com/-AZ9-1XO636o/UsSv08rQhTI/AAAAAAAAAVQ/V6ijTdDzz9g/w873-h491-no/09-crear.png)
+![Screenshot](https://lh4.googleusercontent.com/-WmbChzRuovA/Usnv-uLSVXI/AAAAAAAAAX8/12e5GclFs-U/w905-h509/Screenshot+from+2014-01-05+18:32:35.png)
 
 
 ## Configuration
