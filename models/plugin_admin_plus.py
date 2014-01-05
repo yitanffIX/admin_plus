@@ -239,11 +239,6 @@ def refactorizar_campos(table):
                                     _type="text", _id="tiempos", _class="form-control ", \
                                      _style="margin-bottom: 15px;")
 
-            elif campo.type == 'upload':
-                 campo.widget = lambda campo, valor, *args: SQLFORM.widgets.upload.widget(campo, valor,\
-                                    _type="file", _id="fileUpload", _class="form-control", \
-                                     _style="margin-bottom: 15px;")
-
             elif campo.type == 'time':
                  campo.widget = lambda campo, valor: SQLFORM.widgets.time.widget(campo, valor,\
                                     _type="time", _id="time", _class="form-control", \

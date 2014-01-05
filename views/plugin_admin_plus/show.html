@@ -56,7 +56,17 @@
                 <h4>{{=field}}:</h4>
                 <div class="body clearfix">
                     <blockquote>
-                        {{=row[field]}}
+                        {{if table[field].type == 'upload':}}
+
+                          {{if row[field].endswith(('gif', 'png', 'jpg', 'jpeg', 'bmp')):}}
+                             {{=IMG(_width='200px', _src=URL('download', args=row[field]))}}
+                          {{else:}}
+                             {{=row[field]}}
+                          {{pass}}
+
+                        {{else:}}
+                             {{=row[field]}}
+                        {{pass}}
                     </blockquote>
                 </div>
                 {{pass}}

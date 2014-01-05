@@ -87,16 +87,6 @@ Contribuciones
 Contribuciones y Feedbacks son bienvenidos.
 
 
-Inspiracion
------------------------------------------
-Parte del diseño fue inspirado en
-
--- Bootstrap-Admin: https://github.com/onokumus/Bootstrap-Admin-Template
-
--- instant-admin: https://github.com/sramana/web2py-instant-admin
-
-
-
 Informacion del autor
 -----------------------------------------
 Samuel Bonilla <pythonners@gmail.com>
