@@ -79,7 +79,7 @@ Por favor reporta los bugs en https://github.com/pyner/admin_plus/issues
 
 Licencia
 -----------------------------------------
-Licenciado bajo LGPLv3
+Este proyecto es licenciado bajo los terminos de la licencia LGPLv3, lo que te permite usarlo libremente en cualquier tipo de proyecto, modificarlo y compartir tus cambios(pull request) con la comunidad.
 
 
 Contribuciones
