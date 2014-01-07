@@ -171,10 +171,12 @@ def list():
         if request.vars.search:
             query_str = request.vars.search
             pages = []
+            data = []
             for field in table.fields:
-                if table[field].type == 'string':
-                    data = db(table[field].like('{0}%'.format(query_str))).select(limitby=(0, 200))
-                    break
+                if table[field].type in ('string', 'text'):
+                    datos = db(table[field].like('{0}%'.format(query_str))).select(limitby=(0, 200))
+                    if datos.as_list():
+                        data = datos
 
     if not optimizar_paginacion:
        data = db(table.id > 0).select()
